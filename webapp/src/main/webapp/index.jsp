@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Academy - Complete DevOps & Cloud Mastery | AWS, Azure, GCP | Free YouTube Tutorials</title>
+    <title>OphirCloud Academy - Complete DevOps & Cloud Mastery | AWS, Azure, GCP | Free YouTube Tutorials</title>
     <meta name="description" content="🚀 Master DevOps, AWS, Azure, GCP, Docker, Kubernetes, Jenkins, GitLab CI/CD with real-time projects. 100% FREE YouTube tutorials for beginners. Subscribe now!">
     <meta name="keywords" content="DevOps, AWS, Azure, GCP, Docker, Kubernetes, Jenkins, GitLab, CI/CD, YouTube Channel, Free Tutorials, Real Projects, Cloud Computing">
-    <meta name="author" content="Yash Academy - Your DevOps Learning Partner">
-    <meta property="og:title" content="Yash Academy - Complete DevOps & Cloud Mastery">
+    <meta name="author" content="OphirCloud Academy - Your DevOps Learning Partner">
+    <meta property="og:title" content="OphirCloud Academy - Complete DevOps & Cloud Mastery">
     <meta property="og:description" content="Master DevOps & Cloud with FREE YouTube tutorials. Real-time projects, industry expertise, 100% practical learning!">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.youtube.com/@Yashacademy0">
+    <meta property="og:url" content="https://www.youtube.com/@OluyemiIrerua">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -181,11 +181,6 @@
 
         .social-link.github {
             background: var(--gray-800);
-            color: var(--white);
-        }
-
-        .social-link.medium {
-            background: #000000;
             color: var(--white);
         }
 
@@ -854,9 +849,9 @@
     <header class="header">
         <nav class="nav container">
             <div class="nav__brand">
-                <div class="brand-logo">YA</div>
+                <div class="brand-logo">OA</div>
                 <div class="brand-text">
-                    <h2>Yash Academy</h2>
+                    <h2>OphirCloud Academy</h2>
                     <p>DevOps & Cloud Expert</p>
                 </div>
             </div>
@@ -868,17 +863,14 @@
                 <li><a href="#contact" class="nav__link">Get Started</a></li>
             </ul>
             <div class="nav__social">
-                <a href="https://www.youtube.com/@Yashacademy0" target="_blank" class="social-link youtube" title="YouTube Channel">
+                <a href="https://www.youtube.com/@OluyemiIrerua" target="_blank" class="social-link youtube" title="YouTube Channel">
                     <i class="fab fa-youtube"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/yaswanth-arumulla/" target="_blank" class="social-link linkedin" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/emmanuel-oluyemi-43588a217" target="_blank" class="social-link linkedin" title="LinkedIn">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/arumullayaswanth" target="_blank" class="social-link github" title="GitHub">
+                <a href="https://github.com/OphirCloud/" target="_blank" class="social-link github" title="GitHub">
                     <i class="fab fa-github"></i>
-                </a>
-                <a href="https://medium.com/@yaswanth.arumulla" target="_blank" class="social-link medium" title="Medium">
-                    <i class="fab fa-medium"></i>
                 </a>
             </div>
         </nav>
@@ -898,7 +890,7 @@
                     Perfect for beginners starting their DevOps career with end-to-end real-time projects!
                 </p>
                 <div class="hero__cta">
-                    <a href="https://www.youtube.com/@Yashacademy0" target="_blank" class="btn btn-youtube">
+                    <a href="https://www.youtube.com/@OluyemiIrerua" target="_blank" class="btn btn-youtube">
                         <i class="fab fa-youtube"></i>
                         Subscribe Now - FREE!
                     </a>
@@ -945,7 +937,7 @@
                             Subscribe to my YouTube channel for comprehensive tutorials covering DevOps fundamentals to advanced real-time projects. 
                             Perfect for beginners who want to build a solid foundation in cloud computing and DevOps practices.
                         </p>
-                        <a href="https://www.youtube.com/@Yashacademy0" target="_blank" class="btn btn-primary">
+                        <a href="https://www.youtube.com/@OluyemiIrerua" target="_blank" class="btn btn-primary">
                             <i class="fab fa-youtube"></i>
                             Subscribe & Get Started
                         </a>
@@ -953,9 +945,9 @@
                 </div>
 
                 <div class="section__header">
-                    <h2 class="section__title">🌟 Why Choose Yash Academy?</h2>
+                    <h2 class="section__title">🌟 Why Choose OphirCloud Academy?</h2>
                     <p class="section__subtitle">
-                        I created this channel specifically for people starting their DevOps journey. Every tutorial is designed with beginners in mind, 
+                        I created this channel specifically for people starting their DevOps journey. Every tutorial is designed with beginners in mind,
                         progressing step-by-step to advanced real-world scenarios.
                     </p>
                 </div>
@@ -1372,17 +1364,14 @@
                             <strong>📱 Connect with me on all platforms:</strong>
                         </p>
                         <div class="footer__social">
-                            <a href="https://www.youtube.com/@Yashacademy0" target="_blank" class="social-link youtube" title="YouTube Channel">
+                            <a href="https://www.youtube.com/@OluyemiIrerua" target="_blank" class="social-link youtube" title="YouTube Channel">
                                 <i class="fab fa-youtube"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/yaswanth-arumulla/" target="_blank" class="social-link linkedin" title="LinkedIn">
+                            <a href="https://www.linkedin.com/in/emmanuel-oluyemi-43588a217" target="_blank" class="social-link linkedin" title="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                             </a>
-                            <a href="https://github.com/arumullayaswanth" target="_blank" class="social-link github" title="GitHub">
+                            <a href="https://github.com/OphirCloud/" target="_blank" class="social-link github" title="GitHub">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="https://medium.com/@yaswanth.arumulla" target="_blank" class="social-link medium" title="Medium">
-                                <i class="fab fa-medium"></i>
                             </a>
                         </div>
                     </div>
@@ -1396,23 +1385,20 @@
         <div class="container">
             <div class="footer__content">
                 <div class="footer__section">
-                    <h3>🎓 Yash Academy</h3>
+                    <h3>🎓 OphirCloud Academy</h3>
                     <p class="footer__text">
-                        Empowering beginners to master DevOps and cloud technologies through comprehensive, 
+                        Empowering beginners to master DevOps and cloud technologies through comprehensive,
                         free YouTube tutorials and real-world projects. Your journey to a successful DevOps career starts here!
                     </p>
                     <div class="footer__social">
-                        <a href="https://www.youtube.com/@Yashacademy0" target="_blank" class="social-link youtube" title="YouTube">
+                        <a href="https://www.youtube.com/@OluyemiIrerua" target="_blank" class="social-link youtube" title="YouTube">
                             <i class="fab fa-youtube"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/yaswanth-arumulla/" target="_blank" class="social-link linkedin" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/emmanuel-oluyemi-43588a217" target="_blank" class="social-link linkedin" title="LinkedIn">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/arumullayaswanth" target="_blank" class="social-link github" title="GitHub">
+                        <a href="https://github.com/OphirCloud/" target="_blank" class="social-link github" title="GitHub">
                             <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://medium.com/@yaswanth.arumulla" target="_blank" class="social-link medium" title="Medium">
-                            <i class="fab fa-medium"></i>
                         </a>
                     </div>
                 </div>
@@ -1455,7 +1441,7 @@
             </div>
 
             <div class="footer__bottom">
-                <p>&copy; 2024 Yash Academy. All rights reserved. | Made with ❤️ for DevOps learners worldwide</p>
+                <p>&copy; 2024 OphirCloud Academy. All rights reserved. | Made with ❤️ for DevOps learners worldwide</p>
                 <p style="margin-top: 0.5rem;">
                     🚀 <strong>Subscribe to our YouTube channel for free DevOps tutorials!</strong>
                 </p>
@@ -1471,7 +1457,7 @@
     <script>
         // Open YouTube channel
         function openYouTube() {
-            window.open('https://www.youtube.com/@Yashacademy0', '_blank');
+            window.open('https://www.youtube.com/@OluyemiIrerua', '_blank');
         }
 
         // Main initialization
@@ -1530,7 +1516,7 @@
                 const message = formData.get('message').trim();
 
                 // Show success message
-                let successMessage = '🎉 Thank you, ' + name + '! Welcome to the Yash Academy community!<br><br>';
+                let successMessage = '🎉 Thank you, ' + name + '! Welcome to the OphirCloud Academy community!<br><br>';
                 
                 if (experience === 'complete-beginner') {
                     successMessage += '🎯 Perfect! I have designed my tutorials specifically for complete beginners. Start with my DevOps Fundamentals playlist.<br><br>';
@@ -1554,8 +1540,7 @@
                 successMessage += '📺 <strong>Next Steps:</strong><br>' +
                     '1. Subscribe to my YouTube channel for new tutorials<br>' +
                     '2. Check out my GitHub for project source code<br>' +
-                    '3. Connect with me on LinkedIn for career guidance<br>' +
-                    '4. Follow my Medium blog for in-depth articles<br><br>' +
+                    '3. Connect with me on LinkedIn for career guidance<br><br>' +
                     '🎯 I will be creating more content based on community feedback. Thank you for joining!';
 
                 showMessage(successMessage, 'success');
@@ -1565,7 +1550,7 @@
 
                 // Redirect to YouTube after 5 seconds
                 setTimeout(function() {
-                    window.open('https://www.youtube.com/@Yashacademy0', '_blank');
+                    window.open('https://www.youtube.com/@OluyemiIrerua', '_blank');
                 }, 5000);
             });
 
@@ -1600,7 +1585,7 @@
             });
 
             // All external links
-            const externalButtons = document.querySelectorAll('a[href*="youtube.com"], a[href*="linkedin.com"], a[href*="github.com"], a[href*="medium.com"]');
+            const externalButtons = document.querySelectorAll('a[href*="youtube.com"], a[href*="linkedin.com"], a[href*="github.com"]');
             externalButtons.forEach(function(button) {
                 button.addEventListener('click', function(e) {
                     // Let the default behavior happen (opening in new tab)

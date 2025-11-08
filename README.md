@@ -5,7 +5,7 @@ This is a sample project demonstrating CI/CD pipeline using Maven, Jenkins, Dock
 
 ## Project Architecture
 
-![Architecture Diagram](https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project/blob/e2fcc40d9a5d1fb3f25dd96807b736d274f04c50/Images/image.png?raw=true)
+![Architecture Diagram](https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project/blob/e2fcc40d9a5d1fb3f25dd96807b736d274f04c50/Images/image.png?raw=true)
 
 ### Objective:
 
@@ -200,7 +200,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git credentialsId: 'github-creds', url: 'https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project.git'
+        git credentialsId: 'github-creds', url: 'https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git'
       }
     }
     stage('Maven Build') {
@@ -449,7 +449,7 @@ pipeline {
     stage('Clone') {
       when { expression { !params.DESTROY } }
       steps {
-        git credentialsId: 'github-creds', url: 'https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project.git'
+        git credentialsId: 'github-creds', url: 'https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git'
       }
     }
 

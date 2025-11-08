@@ -13,7 +13,7 @@ pipeline {
     stage('Clone') {
       when { expression { !params.DESTROY } }
       steps {
-        git credentialsId: 'github-creds', url: 'https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project.git'
+        git credentialsId: 'github-creds', url: 'https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git'
       }
     }
 

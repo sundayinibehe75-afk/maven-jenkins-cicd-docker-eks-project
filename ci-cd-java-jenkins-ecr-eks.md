@@ -198,10 +198,10 @@ http://<EC2 Public IP>:8080
 
 | Field     | Value       |
 |-----------|-------------|
-| Username  | yaswanth    |
-| Password  | yaswanth    |
-| Full Name | yaswanth    |
-| Email     | yash@example.com |
+| Username  | emmanuel    |
+| Password  | emmanuel    |
+| Full Name | Emmanuel Oluyemi    |
+| Email     | emmanuel@oluyemi.com |
 
 Click through: **Save and Continue → Save and Finish → Start using Jenkins**
 
@@ -402,8 +402,8 @@ pipeline {
         AWS_DEFAULT_REGION = 'us-east-2'   // replace AWS region
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com"
         GIT_REPO_NAME = "maven-jenkins-cicd-docker-eks-project"  // replace your github rep name
-        GIT_EMAIL = "yaswanth.arumulla@gmail.com"          //replacr your email id
-        GIT_USER_NAME = "arumullayaswanth"            // replace your user name
+        GIT_EMAIL = "your-email@example.com"          //replace your email id
+        GIT_USER_NAME = "OphirCloud"            // replace your user name
         YAML_FILE = "deploy_svc.yml"
     }
 
@@ -418,7 +418,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project.git'
+                git branch: 'master', url: 'https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git'
             }
         }
         // no change in this stage
@@ -514,7 +514,7 @@ pipeline {
 ---
 ## Phase 6: : 🎉 Install ArgoCD in Jumphost EC2
 
-https://medium.com/@yaswanth.arumulla/argo-cd-in-action-a-step-by-step-guide-to-kubernetes-gitops-7bb199e61e0b
+_For detailed ArgoCD installation guide, refer to the official ArgoCD documentation._
 ---
 
 ## Step 8:  Deploying with ArgoCD and Configuring Route 53 (Step-by-Step)
@@ -533,7 +533,7 @@ kubectl get namespaces
    - **Application Name:** `project`
    - **Project Name:** `default`
    - **Sync Policy:** `Automatic`
-   - **Repository URL:** `https://github.com/arumullayaswanth/maven-jenkins-cicd-docker-eks-project.git`
+   - **Repository URL:** `https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git`
    - **Revision:** `HEAD`
    - **Path:** `Kubernetes-Manifests-file`
    - **Cluster URL:** `https://kubernetes.default.svc`
