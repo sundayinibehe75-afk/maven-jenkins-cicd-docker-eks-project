@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: regapp
-          image: 465735403817.dkr.ecr.us-east-1.amazonaws.com/demo:3
+          image: 465735403817.dkr.ecr.us-east-1.amazonaws.com/demo:4
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
