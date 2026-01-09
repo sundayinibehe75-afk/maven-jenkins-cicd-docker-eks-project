@@ -397,13 +397,13 @@ pipeline {
     agent any // 🖥️ Use any available Jenkins agent (node) to run the pipeline
 
     environment {
-        AWS_ACCOUNT_ID = '242201296943'   // replace AWS account ID
+        AWS_ACCOUNT_ID = '465735403817'   // replace AWS account ID
         AWS_ECR_REPO_NAME = 'demo'         // replace AWS account ID
-        AWS_DEFAULT_REGION = 'us-east-2'   // replace AWS region
+        AWS_DEFAULT_REGION = 'us-east-1'   // replace AWS region
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com"
         GIT_REPO_NAME = "maven-jenkins-cicd-docker-eks-project"  // replace your github rep name
-        GIT_EMAIL = "your-email@example.com"          //replace your email id
-        GIT_USER_NAME = "OphirCloud"            // replace your user name
+        GIT_EMAIL = "sundayinibehe75@gmail.com"          //replace your email id
+        GIT_USER_NAME = "sundayinibehe75-afk"            // replace your user name
         YAML_FILE = "deploy_svc.yml"
     }
 
@@ -418,7 +418,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git'
+                git branch: 'master', url: 'https://github.com/sundayinibehe75-afk/maven-jenkins-cicd-docker-eks-project.git'
             }
         }
         // no change in this stage
@@ -533,7 +533,7 @@ kubectl get namespaces
    - **Application Name:** `project`
    - **Project Name:** `default`
    - **Sync Policy:** `Automatic`
-   - **Repository URL:** `https://github.com/OphirCloud/maven-jenkins-cicd-docker-eks-project.git`
+   - **Repository URL:** `https://github.com/sundayinibehe75-afk/maven-jenkins-cicd-docker-eks-project.git`
    - **Revision:** `HEAD`
    - **Path:** `Kubernetes-Manifests-file`
    - **Cluster URL:** `https://kubernetes.default.svc`
